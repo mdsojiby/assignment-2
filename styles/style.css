@@ -150,6 +150,11 @@
     gap: 10px;
 }
 
+.five{
+    display: flex;
+    
+}
+
 
 
 
@@ -165,6 +170,17 @@
 .contact{
     margin: 50px;
 
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer{
+    display: flex;
+    background-color: grey;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 
