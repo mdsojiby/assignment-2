@@ -97,6 +97,70 @@
     
 }
 
+.div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.fact{
+    width: 240px;
+    display: grid;
+    
+    height:240px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-title{
+    text-align: center;
+}
+
+.div-description{
+    text-align: center;
+}
+
+.section{
+    display: flex;
+}
+
+.feture-title,.feture-description{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.btn-primary{
+    text-align: center;
+}
+
+.name-title{
+    text-align: center;
+}
+
+.name-description{
+    text-align: center;
+}
+.my-name img{
+    width: 50%;
+}
+
+.my-name{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    padding: 20px;
+    margin: 10px;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+.feture-content img{
+    width: 100%;
+    
+}
+
 /* header styles */
 .contact{
     margin: 50px;
@@ -109,6 +173,9 @@
 @media screen and (max-width:576px){
     .nav-links{
         flex-direction: column;
+    }
+    .div{
+        grid-template-columns: repeat(1,1fr);
     }
 
    
